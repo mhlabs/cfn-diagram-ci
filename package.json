@@ -1,5 +1,5 @@
 {
-  "name": "cfn-diagram-ci",
+  "name": "@mhlabs/cfn-diagram-ci",
   "version": "0.0.1",
   "description": "Extension of cfn-diagram that takes static screenshots of generated diagrams",
   "main": "index.js",
