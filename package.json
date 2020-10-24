@@ -1,0 +1,38 @@
+{
+  "name": "cfn-diagram-ci",
+  "version": "0.0.1",
+  "description": "Extension of cfn-diagram that takes static screenshots of generated diagrams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@mhlabs/cfn-diagram": "^1.1.4",
+    "pageres": "^5.2.1",
+    "temp-dir": "^2.0.0"
+  },
+  "keywords": [
+    "aws",
+    "sam",
+    "draw.io",
+    "cloudformation",
+    "cfn-diagram"
+  ],
+  "author": "mhlabs",
+  "license": "ISC",
+  "bin": {
+    "cfn-diagram-ci": "index.js",
+    "cfn-dia-ci": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhlabs/cfn-diagram-ci.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhlabs/cfn-diagram-ci/issues"
+  },
+  "homepage": "https://github.com/mhlabs/cfn-diagram-ci#readme"
+}
