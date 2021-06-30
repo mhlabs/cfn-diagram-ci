@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const Pageres = require("pageres");
 process.argv.push("--ci-mode");
 require("@mhlabs/cfn-diagram/index");
